@@ -1,0 +1,31 @@
+body {
+  background-color: #af4425;
+  color: #662E1C;
+}
+header {
+  background-color: #662E1C;
+  color: white;
+}
+.progress-sidebar {
+  background-color: #ebdcb2;
+  padding: 1rem;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+.progress-sidebar a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.progress-sidebar a:hover {
+  text-decoration: underline;
+}
+.step {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  background-color: #c9a66b;
+}
